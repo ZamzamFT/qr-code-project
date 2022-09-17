@@ -15,6 +15,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - CSS 
   - Flexbox
   - Mobile-first workflow
-
   ## Author
   - Frontend Mentor - [](https://www.frontendmentor.io/profile/ZamzamFT)
