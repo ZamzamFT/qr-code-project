@@ -1,0 +1,57 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --font-family: 'Outfit', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --color-white: #FFFFFF;  
+    --color-light-gray: #D6E2F0;
+    --color-grayish-blue: #7B879D;
+    --color-dark-blue: #1F3251;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body, html{
+    font-family: var(--font-family); 
+    text-align: center;
+}
+
+
+/* QR code component styled */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem 0;
+    height: 40rem;
+    background-color: var(--color-light-gray);
+}
+    .card{
+        background-color: var(--color-white);
+        width: 18rem;
+        height: 30rem;
+        border-radius: 16px;
+    }
+        .card img{
+            width: 18rem;
+            padding: 12px;  
+            border-radius: 10%;  
+        }
+
+        .card-body h1{
+            font-size: 24px;
+            padding: 14px;  
+        }
+        .card-body p{
+            font-size: 15px;
+            color: var(--color-light-gray);
+            padding: 10px 13px;  
+        }
+
